@@ -1,0 +1,30 @@
+Azure Monitor Step by step lab :
+
+1) Launch Cloud Shell 
+2) Create a resource group ( Following script was used to create the RG )
+
+	az group create `
+--name monitorrg `
+--location westeurope
+
+3) Create VM ( Following script was used to create the VM )
+
+		az vm create `
+--name vmmonitor1 `
+--resource-group monitorrg `
+--image Win2019Datacenter `
+--location westeurope `
+--admin-username azureuser `
+--admin-password Password0134!
+
+4) Explore CPU, Network, Disk bytes and Disk operations/sec Under overview section
+5) Check "Activity Log"
+6) Navigate to Metrics and explore the options avaialable. 
+7) Naviagate to Monitor from Azure portal
+8) Explore the Insights for Application, Network, Containers etc. 
+
+
+
+
+Microsoft Privacy Statement - Ref URL
+https://privacy.microsoft.com/en-us/privacystatement

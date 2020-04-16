@@ -1,0 +1,15 @@
+Azure Firewall Lab Steps :
+
+
+Step 1 : Create a VNet in your Resource Group
+Step 2 : Create Subnet for Jump server
+Step 3 : create Subnet for production workloads
+Step 4 : create subnet for Azure Firewall. 
+Step 5 : create VM in JumpSubnet
+Step 6 : Create VM in Production Subnet 
+Step 7 : create azure firewall in Firewall subnet 
+Step 8 : create a route table and attach to prod subnet
+Step 9: Write a route in route table to tell that next hop is AzureFirewall( its IP )
+Step 10 : IN AzFw -> write Application rule to allow google.com
+Test the setup . 
+
