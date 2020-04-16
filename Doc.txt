@@ -1,0 +1,4 @@
+https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions
+
+https://azure.microsoft.com/en-us/global-infrastructure/regions/
+
